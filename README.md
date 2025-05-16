@@ -1,5 +1,8 @@
-# 📝 Mini ToDo - Architecture Microservices (SOA)
+Mini-Todo est une application gestion des taches basée sur une architecture SOA/microservices, qui utilise les technologies suivantes :
 
-Ce projet est une application simple de gestion de tâches (ToDo) construite selon une architecture orientée services (SOA) moderne.  
-Il intègre plusieurs styles de communication entre microservices : **REST**, **GraphQL**, **gRPC** et **Kafka**.
+API Gateway pour centraliser les points d'entrée (REST et GraphQL). gRPC pour la communication entre microservices. Kafka pour la gestion des événements (publication et consommation). Docker Compose pour l'orchestration des services.
+
+Prérequis:
+
+Docker et Docker Compose Node.js (pour exécuter les services localement si besoin) Postman (pour tester les API) Kafka (via Docker)
 
